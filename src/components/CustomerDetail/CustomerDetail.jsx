@@ -98,7 +98,7 @@ const CustomerDetail = () => {
   };
 
   const handleSendToWhatsApp = () => {
-    const restaurantName = "Urban Pizzeria";
+    const restaurantName = "Foodies Hub";
 
     const currentTotalAmount =
       calculateTotalPrice(productsToSend) +
@@ -610,7 +610,7 @@ ${additionalChargesText}
       >
         <img src="/logo.png" alt="Logo" width={150} className="logo" />
         {/* <h1 style={{ textAlign: "center", margin: 0, fontSize: "25px" }}>
-          Urban Pizzeria
+          Foodies Hub
         </h1> */}
         <p
           style={{
